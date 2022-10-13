@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.jumbotron{
+    margin: auto;
+    width: 80%;
+    height: 470px;
+    background-image: url(../images/ferrari.jpg);   
+    background-size: cover;
+     
+}
+.main-title{
+    padding-top: 40px;
+    text-align: center;
+    font: bold 30px sans-serfs;
+    margin-bottom: 10px;
+    color: #c1b8b8;
+}
+
+.line{
+    display: block;
+    width: 100px;
+    margin: auto;
+    height: 2px;
+    background-color: #7c7777;
+    transition:.5s;
+}
+.header-sec:hover .line{
+    width: 200px;
+}
+.suc-title{
+    text-align: center;
+    font: bold 20px sans-serfs;
+    margin-bottom: 10px;
+    color: #c1b8b8;
+}
+#content{
+    height: 120px;
+    padding: 7px 2px;
+    border-radius: 6px;
+}
+#total{
+    padding: 7px 2px;
+    border-radius: 6px;
+}
+#total::before{
+    content: 'Total : ';
+}
+.buut{
+    width: 60%;
+    margin: auto;
+}
+.card{
+    padding: 0px 40px;
+}
